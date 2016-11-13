@@ -14,8 +14,8 @@ namespace usht3micro
         {
             string str = "Microsoft announced its next generation C# compiler today. It uses advanced parser and special optimizer for Microsoft CLR";
             Console.WriteLine(str);
-            string[] str2 = str.Split(' ');
-            rep(str2);
+            string[] str3 = str.Split(' ');
+            rep(str3);
             Console.ReadLine();
         }
         public static void rep(string[] word)
